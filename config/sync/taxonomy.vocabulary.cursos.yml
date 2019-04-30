@@ -1,0 +1,9 @@
+uuid: dffd8fba-5947-4a40-ad31-b1ff5b53b691
+langcode: es
+status: true
+dependencies: {  }
+name: Cursos
+vid: cursos
+description: 'Aquí se muestran los cursos disponibles.'
+hierarchy: 0
+weight: 0

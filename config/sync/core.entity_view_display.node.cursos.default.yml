@@ -1,0 +1,48 @@
+uuid: f4a7418c-5f89-4885-9bc3-6fa9968ecd4c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.cursos.body
+    - field.field.node.cursos.field_categoria
+    - field.field.node.cursos.field_programa
+    - node.type.cursos
+  module:
+    - file
+    - text
+    - user
+id: node.cursos.default
+targetEntityType: node
+bundle: cursos
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_categoria:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_programa:
+    weight: 102
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

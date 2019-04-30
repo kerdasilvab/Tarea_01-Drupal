@@ -1,31 +1,31 @@
-uuid: 4a6e5509-714b-48e1-9d45-d983bd6a3059
-langcode: en
+uuid: 1e99581a-9605-481e-86f8-46f69f36ef23
+langcode: es
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.page.body
-    - node.type.page
+    - field.field.node.cursos.body
+    - node.type.cursos
   module:
     - text
     - user
-_core:
-  default_config_hash: cSv5lDnbIgDug475Hdz3woED2XMqYv3awI-J9u1JLbY
-id: node.page.teaser
+id: node.cursos.teaser
 targetEntityType: node
-bundle: page
+bundle: cursos
 mode: teaser
 content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 100
-    region: content
+    weight: 101
     settings:
       trim_length: 600
     third_party_settings: {  }
+    region: content
   links:
-    weight: 101
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
     region: content
 hidden:
   langcode: true

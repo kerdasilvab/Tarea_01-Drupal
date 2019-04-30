@@ -1,0 +1,32 @@
+uuid: bc344aa0-508d-4d24-a25e-d4b581ea218e
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.lista_de_cursos
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__lista_de_cursos_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:lista_de_cursos-block_1'
+settings:
+  id: 'views_block:lista_de_cursos-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      cursos: cursos
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

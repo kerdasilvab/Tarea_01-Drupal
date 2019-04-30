@@ -1,0 +1,12 @@
+uuid: 8bdf5549-0968-45ce-af02-0f5e323566c8
+langcode: es
+status: true
+dependencies: {  }
+id: contactenos
+label: Contactenos
+recipients:
+  - kerdasilvab@gmail.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

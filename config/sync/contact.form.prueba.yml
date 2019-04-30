@@ -1,0 +1,12 @@
+uuid: 77e4a059-6b6c-4c1f-90b6-fa4644a31206
+langcode: es
+status: true
+dependencies: {  }
+id: prueba
+label: 'Form prueba'
+recipients:
+  - kerdasilvab@gmail.com
+reply: ''
+weight: 0
+message: Gracias!
+redirect: ''

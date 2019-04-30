@@ -1,0 +1,24 @@
+uuid: ea3ce9f7-7814-4e45-a02d-2392c68a3549
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.menuprueba
+  module:
+    - system
+  theme:
+    - bartik
+id: menuprueba
+theme: bartik
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:menuprueba'
+settings:
+  id: 'system_menu_block:menuprueba'
+  label: menuprueba
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

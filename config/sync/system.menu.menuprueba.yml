@@ -1,0 +1,8 @@
+uuid: 7df43419-87e6-4d20-919e-172e70560fd1
+langcode: es
+status: true
+dependencies: {  }
+id: menuprueba
+label: menuprueba
+description: prueba
+locked: false
